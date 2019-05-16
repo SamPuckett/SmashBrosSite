@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title of the document</title>
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Used as an example only to position the footer at the end of the page.
+    You can delete these styles or move it to your custom css file -->
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="black">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="../index.html" class="brand-logo">Smash Bros Site</a>
+                    <a href="#" data-activates="mobile-menu" class="button-collapse"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="character-player.html" class="btn red black-text">Characters</a></li>
+                        <li><a href="test.html" class="btn white black-text">Test</a></li>
+                        <li><a href="about-us.html" class="btn white black-text">About Us</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-menu">
+                        <li><a href="" class="subheader center black-text">Smash Bros Site</a></li>
+                        <li><a href="#" class="btn white black-text">Characters</a></li>
+                        <li><a href="#" class="btn white black-text">Test</a></li>
+                        <li><a href="#" class="btn white black-text">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+
+        <!-- Your content here -->
+        <form action="../index.html">
+            <div class="container">
+
+                <h1>Choose Your Character</h1>
+
+                <div class="input-field col s6">
+                    <select class="text-black black-text">
+                        <option value="" disabled selected>Choose your Character</option>
+                        <option value="1">Bayonetta</option>
+                        <option value="2">Bowser</option>
+                        <option value="3">Bowser Jr.</option>
+                        <option value="4">Captain Falcon</option>
+                        <option value="5">Cloud</option>
+                        <option value="6">Corrin</option>
+                        <option value="7">Diddy Kong</option>
+                        <option value="8">Donkey Kong</option>
+                        <option value="9">Dr. Mario</option>
+                        <option value="10">Dunk Hunt</option>
+                        <option value="11">Falco</option>
+                        <option value="12">Fox</option>
+                        <option value="13">Ganondorf</option>
+                        <option value="14">Greninja</option>
+                        <option value="15">Ice Climbers</option>
+                        <option value="16">Ike</option>
+                        <option value="17">Inkling</option>
+                        <option value="18">Jigglypuff</option>
+                        <option value="19">King Dedede</option>
+                        <option value="20">King K. Rool</option>
+                        <option value="21">Kirby</option>
+                        <option value="22">Link</option>
+                        <option value="23">Little Mac</option>
+                        <option value="24">Lucario</option>
+                        <option value="25">Lucas</option>
+                        <option value="26">Luigi</option>
+                        <option value="27">Mario</option>
+                        <option value="28">Marth</option>
+                        <option value="29">Mega Man</option>
+                        <option value="30">Meta Knight</option>
+                        <option value="31">Mewtwo</option>
+                        <option value="32">Mii Brawler</option>
+                        <option value="33">Mii Gunner</option>
+                        <option value="34">Mii Fighter</option>
+                        <option value="35">Mr. Game & Watch</option>
+                        <option value="36">Ness</option>
+                        <option value="37">Olimar</option>
+                        <option value="38">Pac-Man</option>
+                        <option value="39">Palutena</option>
+                        <option value="40">Peach</option>
+                        <option value="41">Pichu</option>
+                        <option value="42">Pikachu</option>
+                        <option value="43">Pit</option>
+                        <option value="44">Pokemon Trainer</option>
+                        <option value="45">R.O.B.</option>
+                        <option value="46">Robin</option>
+                        <option value="47">Rosalina</option>
+                        <option value="48">Roy</option>
+                        <option value="49">Ridley</option>
+                        <option value="50">Ryu</option>
+                        <option value="51">Samus</option>
+                        <option value="52">Sheik</option>
+                        <option value="53">Shulk</option>
+                        <option value="54">Simon Belmont</option>
+                        <option value="55">Solid Snake</option>
+                        <option value="56">Sonic</option>
+                        <option value="57">Toon Link</option>
+                        <option value="58">Villager</option>
+                        <option value="59">Wario</option>
+                        <option value="60">Wii Fit Trainer</option>
+                        <option value="61">Wolf</option>
+                        <option value="62">Yoshi</option>
+                        <option value="63">Young Link</option>
+                        <option value="64">Zelda</option>
+                        <option value="65">Zero Suit Samus</option>
+                        <option value="66">Piranha Plant</option>
+                        <option value="67">Joker</option>
+                    </select>
+                    <label>Select Your Character</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <select>
+                        <option value="" disabled selected>Your Opponent's Character</option>
+                        <option value="1">Bayonetta</option>
+                        <option value="2">Bowser</option>
+                        <option value="3">Bowser Jr.</option>
+                        <option value="4">Captain Falcon</option>
+                        <option value="5">Cloud</option>
+                        <option value="6">Corrin</option>
+                        <option value="7">Diddy Kong</option>
+                        <option value="8">Donkey Kong</option>
+                        <option value="9">Dr. Mario</option>
+                        <option value="10">Dunk Hunt</option>
+                        <option value="11">Falco</option>
+                        <option value="12">Fox</option>
+                        <option value="13">Ganondorf</option>
+                        <option value="14">Greninja</option>
+                        <option value="15">Ice Climbers</option>
+                        <option value="16">Ike</option>
+                        <option value="17">Inkling</option>
+                        <option value="18">Jigglypuff</option>
+                        <option value="19">King Dedede</option>
+                        <option value="20">King K. Rool</option>
+                        <option value="21">Kirby</option>
+                        <option value="22">Link</option>
+                        <option value="23">Little Mac</option>
+                        <option value="24">Lucario</option>
+                        <option value="25">Lucas</option>
+                        <option value="26">Luigi</option>
+                        <option value="27">Mario</option>
+                        <option value="28">Marth</option>
+                        <option value="29">Mega Man</option>
+                        <option value="30">Meta Knight</option>
+                        <option value="31">Mewtwo</option>
+                        <option value="32">Mii Brawler</option>
+                        <option value="33">Mii Gunner</option>
+                        <option value="34">Mii Fighter</option>
+                        <option value="35">Mr. Game & Watch</option>
+                        <option value="36">Ness</option>
+                        <option value="37">Olimar</option>
+                        <option value="38">Pac-Man</option>
+                        <option value="39">Palutena</option>
+                        <option value="40">Peach</option>
+                        <option value="41">Pichu</option>
+                        <option value="42">Pikachu</option>
+                        <option value="43">Pit</option>
+                        <option value="44">Pokemon Trainer</option>
+                        <option value="45">R.O.B.</option>
+                        <option value="46">Robin</option>
+                        <option value="47">Rosalina</option>
+                        <option value="48">Roy</option>
+                        <option value="49">Ridley</option>
+                        <option value="50">Ryu</option>
+                        <option value="51">Samus</option>
+                        <option value="52">Sheik</option>
+                        <option value="53">Shulk</option>
+                        <option value="54">Simon Belmont</option>
+                        <option value="55">Solid Snake</option>
+                        <option value="56">Sonic</option>
+                        <option value="57">Toon Link</option>
+                        <option value="58">Villager</option>
+                        <option value="59">Wario</option>
+                        <option value="60">Wii Fit Trainer</option>
+                        <option value="61">Wolf</option>
+                        <option value="62">Yoshi</option>
+                        <option value="63">Young Link</option>
+                        <option value="64">Zelda</option>
+                        <option value="65">Zero Suit Samus</option>
+                        <option value="66">Piranha Plant</option>
+                        <option value="67">Joker</option>
+                    </select>
+                    <label>Select Your Opponent's Character</label>
+                </div>
+
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+
+        </form>
+
+        <!-- <form action="#">
+                            <p>
+                                <input id="choice_1" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_1">Bayonetta</label>
+                            </p>
+                            <p>
+                                <input id="choice_2" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_2">Bowser</label>
+                            </p>
+                            <p>
+                                <input id="choice_3" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_3">Bowser Jr.</label>
+                            </p>
+                            <p>
+                                <input id="choice_4" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_4">Captain Falcon</label>
+                            </p>
+                            <p>
+                                <input id="choice_5" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_5">Cloud</label>
+                            </p>
+                            <p>
+                                <input id="choice_6" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_6">Corrin</label>
+                            </p>
+                            <p>
+                                <input id="choice_7" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_7">Diddy Kong</label>
+                            </p>
+                            <p>
+                                <input id="choice_8" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_8">Bowser</label>
+                            </p>
+                            <p>
+                                <input id="choice_9" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_9">Donkey Kong</label>
+                            </p>
+                            <p>
+                                <input id="choice_10" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_10">Dr. Mario</label>
+                            </p>
+                            <p>
+                                <input id="choice_11" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_11">Duck Hunt</label>
+                            </p>
+                            <p>
+                                <input id="choice_12" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_12">Falco</label>
+                            </p>
+                            <p>
+                                <input id="choice_13" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_13">Fox</label>
+                            </p>
+                            <p>
+                                <input id="choice_14" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_14">Ganondorf</label>
+                            </p>
+                            <p>
+                                <input id="choice_15" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_15">Greninja</label>
+                            </p>
+                            <p>
+                                <input id="choice_16" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_16">The Ice Climbers</label>
+                            </p>
+                            <p>
+                                <input id="choice_17" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_17">Ike</label>
+                            </p>
+                            <p>
+                                <input id="choice_18" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_18">Inkling</label>
+                            </p>
+                            <p>
+                                <input id="choice_19" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_19">Jigglypuff</label>
+                            </p>
+                            <p>
+                                <input id="choice_20" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_20">Kind Dedede</label>
+                            </p>
+                            <p>
+                                <input id="choice_21" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_21">King K. Rool</label>
+                            </p>
+                            <p>
+                                <input id="choice_22" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_22">Kirby</label>
+                            </p>
+                            <p>
+                                <input id="choice_23" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_23">Link</label>
+                            </p>
+                            <p>
+                                <input id="choice_24" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_24">Little Mac</label>
+                            </p>
+                            <p>
+                                <input id="choice_25" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_25">Lucario</label>
+                            </p>
+                            <p>
+                                <input id="choice_26" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_26">Lucas</label>
+                            </p>
+                            <p>
+                                <input id="choice_27" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_27">Luigi</label>
+                            </p>
+                            <p>
+                                <input id="choice_28" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_28">Mario</label>
+                            </p>
+                            <p>
+                                <input id="choice_29" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_29">Marth</label>
+                            </p>
+                            <p>
+                                <input id="choice_30" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_30">Mega Man</label>
+                            </p>
+                            <p>
+                                <input id="choice_31" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_31">Meta Knight</label>
+                            </p>
+                            <p>
+                                <input id="choice_32" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_32">Mewtwo</label>
+                            </p>
+                            <p>
+                                <input id="choice_33" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_33">Mii Brawler</label>
+                            </p>
+                            <p>
+                                <input id="choice_34" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_34">Mii Gunner</label>
+                            </p>
+                            <p>
+                                <input id="choice_35" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_35">Mii Fighter</label>
+                            </p>
+                            <p>
+                                <input id="choice_36" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_36">Mr. Game & Watch</label>
+                            </p>
+                            <p>
+                                <input id="choice_37" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_37">Ness</label>
+                            </p>
+                            <p>
+                                <input id="choice_38" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_38">Olimar</label>
+                            </p>
+                            <p>
+                                <input id="choice_39" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_39">Pac-Man</label>
+                            </p>
+                            <p>
+                                <input id="choice_40" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_40">Palutena</label>
+                            </p>
+                            <p>
+                                <input id="choice_41" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_41">Peach</label>
+                            </p>
+                            <p>
+                                <input id="choice_42" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_42">Pichu</label>
+                            </p>
+                            <p>
+                                <input id="choice_43" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_43">Pikachu</label>
+                            </p>
+                            <p>
+                                <input id="choice_44" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_44">Pit</label>
+                            </p>
+                            <p>
+                                <input id="choice_45" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_45">Pokemon Trainer</label>
+                            </p>
+                            <p>
+                                <input id="choice_46" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_46">R.O.B.</label>
+                            </p>
+                            <p>
+                                <input id="choice_47" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_47">Robin</label>
+                            </p>
+                            <p>
+                                <input id="choice_48" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_48">Rosalina</label>
+                            </p>
+                            <p>
+                                <input id="choice_49" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_49">Roy</label>
+                            </p>
+                            <p>
+                                <input id="choice_50" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_50">Ridley</label>
+                            </p>
+                            <p>
+                                <input id="choice_51" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_51">Ryu</label>
+                            </p>
+                            <p>
+                                <input id="choice_52" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_52">Samus</label>
+                            </p>
+                            <p>
+                                <input id="choice_53" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_53">Sheik</label>
+                            </p>
+                            <p>
+                                <input id="choice_54" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_54">Shulk</label>
+                            </p>
+                            <p>
+                                <input id="choice_55" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_55">Simon Belmont</label>
+                            </p>
+                            <p>
+                                <input id="choice_56" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_56">Solid Snake</label>
+                            </p>
+                            <p>
+                                <input id="choice_57" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_57">Sonic</label>
+                            </p>
+                            <p>
+                                <input id="choice_58" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_58">Took Link</label>
+                            </p>
+                            <p>
+                                <input id="choice_59" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_59">Villager</label>
+                            </p>
+                            <p>
+                                <input id="choice_60" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_60">Wario</label>
+                            </p>
+                            <p>
+                                <input id="choice_61" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_61">Wii Fit Trainer</label>
+                            </p>
+                            <p>
+                                <input id="choice_62" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_62">Wolf</label>
+                            </p>
+                            <p>
+                                <input id="choice_63" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_63">Yoshi</label>
+                            </p>
+                            <p>
+                                <input id="choice_64" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_64">Young Link</label>
+                            </p>
+                            <p>
+                                <input id="choice_65" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_65">Zelda</label>
+                            </p>
+                            <p>
+                                <input id="choice_66" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_66">Zero Suit Samus</label>
+                            </p>
+                            <p>
+                                <input id="choice_67" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_67">Piranha Plant</label>
+                            </p>
+                            <p>
+                                <input id="choice_68" name="group1" type="radio" class="with-gap"/>   
+                                <label for="choice_68">Joker</label>
+                            </p>
+
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                            </button>
+                    </form> -->
+
+        <h1></h1>
+
+        </div>
+
+    </main>
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m8 l6">
+                    <h5 class="white-text">Want to learn how to beat your opponent?</h5>
+                    <p class="grey-text text-lighten-4">With Smash Bros Site, you can learn tips on matchups that you're
+                        struggling on!</p>
+                </div>
+                <div class="col s12 m4 l6">
+                    <h5 class="white-text">About The Creator</h5>
+                    <p class="grey-text text-lighten-4">My name is Sam and I am an undergraduate creating this project
+                        to expand my portfolio! If you enjoy using this site, consider following me on twitter
+                        @iamsamwhale or buying me a coffee!</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Samuel Ruiz
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $("document").ready(function () {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+    <script class="form-select">
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Title of the document</title>
+    <!-- Material Icon CDN -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Your custom styles -->
+      <link rel="stylesheet" href="css/style.css">
+    <!-- Used as an example only to position the footer at the end of the page.
+    You can delete these styles or move it to your custom css file -->
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        }
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="black">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="../index.html" class="brand-logo">Smash Bros Site</a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="character-player.html" class="btn white black-text">Characters</a></li>
+              <li><a href="text.html" class="btn red black-text">Test</a></li>
+              <li><a href="about-us.html" class="btn white black-text">About Us</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-menu">
+              <li><a href="" class="subheader center black-text">Smash Bros Site</a></li>
+              <li><a href="#" class="btn white black-text">Characters</a></li>
+              <li><a href="#" class="btn white black-text">Test</a></li>
+              <li><a href="#" class="btn white black-text">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <main>
+
+
+      <!-- Your content here -->
+        <div class="container">
+
+            <p>Insert Cool Smash Brothers Picture HERE</p>
+            <p>Make The website enticize</p>
+            <p>Get started by clicking on the "Characters" tab on the top to choose your characters!</p>
+
+        </div>
+      
+    </main>
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8 l6">
+            <h5 class="white-text">Want to learn how to beat your opponent?</h5>
+            <p class="grey-text text-lighten-4">With Smash Bros Site, you can learn tips on matchups that you're struggling on!</p>
+          </div>
+          <div class="col s12 m4 l6">
+            <h5 class="white-text">About The Creator</h5>
+            <p class="grey-text text-lighten-4">My name is Sam and I am an undergraduate creating this project to expand my portfolio! If you enjoy using this site, consider following me on twitter @iamsamwhale or buying me a coffee!</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright Samuel Ruiz
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize JS CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+      $("document").ready(function(){
+        $(".button-collapse").sideNav();
+      });
+    </script>
+  </body>
+</html>
